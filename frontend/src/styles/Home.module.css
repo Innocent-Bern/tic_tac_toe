@@ -1,1 +1,27 @@
+.Home {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(29, 0, 29);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
 
+.board{
+    height: 30vw;
+    width: 30vw;
+    border: solid 1px white;
+    align-self: center;
+    display: grid;
+    grid-template-areas: 
+    'a b c'
+    'd e f'
+    'g h i'
+    ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.board_tile{
+    border: solid 1px white;
+}
