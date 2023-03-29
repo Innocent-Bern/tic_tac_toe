@@ -15,4 +15,3 @@ export const clockSlice = createSlice({
 export const { tick } = clockSlice.actions
 
 export default clockSlice.reducer
-
