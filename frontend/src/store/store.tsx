@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { api } from '@/features/api/apiSlice'
+import { api } from '../features/api/apiSlice'
 
-import clockReducer from '@/features/clock/clockSlice'
-import socketReducer from '@/features/socketConnection/socketSlice'
+import clockReducer from '../features/clock/clockSlice'
+import socketReducer from '../features/socketConnection/socketSlice'
 
 const store = configureStore({
   reducer: {

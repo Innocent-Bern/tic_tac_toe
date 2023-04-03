@@ -1,5 +1,5 @@
-import styles from '@/styles/Home.module.css'
-import { Time } from '@/features/clock/Time'
+import styles from '../styles/Home.module.css'
+import { Time } from '../features/clock/Time'
 import { Suspense, useState } from 'react'
 
 export default function Home() {
