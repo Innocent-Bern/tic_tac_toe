@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { socket } from "@/socket";
+import { socket } from "../../socket";
 
 export const socketSlice = new createSlice({
     name: 'socketconnection',
