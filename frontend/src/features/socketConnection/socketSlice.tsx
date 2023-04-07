@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { socket } from "../../socket";
 
-export const socketSlice = new createSlice({
+export const socketSlice = createSlice({
     name: 'socketconnection',
     initialState: {
         value : false
